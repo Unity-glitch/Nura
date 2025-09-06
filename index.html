@@ -26,11 +26,21 @@
           <a href="" class="link">Support</a>
         </nav>
         <nav class="nav__links__two">
-          <i class="ri-shopping-cart-line nav__bar__icon"></i>
           <a href="" class="link">Cart</a>
         </nav>
-        <div class="mobile">
+        <div class="mobile" onclick="toggleMenu(true)">
           <i class="ri-menu-line white__color__icon"></i>
+        </div>
+        <div class="mobile__links" id="mobileLinks">
+          <i
+            onclick="toggleMenu(false)"
+            class="ri-close-large-line white__color__icon"
+          ></i>
+          <a href="" class="link">About</a>
+          <a href="" class="link">Get App</a>
+          <a href="" class="link">Products</a>
+          <a href="" class="link">Support</a>
+          <a href="" class="link">Cart</a>
         </div>
       </div>
       <div class="hero">
@@ -168,4 +178,5 @@
       </div>
     </div>
   </body>
+  <script src="/index.js"></script>
 </html>
